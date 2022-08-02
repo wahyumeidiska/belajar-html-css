@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(japan.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 45px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px white transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: orange;
+    color: black;
+}
+
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: orange;
+    font-size: 50px;
+}
+
+.button{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid orange;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: rgb(17, 0, 255);
+    color: rgb(255, 255, 255);
+}
+
+.subtitle{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.subtitle h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.subbutton{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.subbtn{
+    border: 1px solid rgb(255, 0, 0);
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.subbtn:hover{
+    background-color: rgb(143, 1, 1);
+    color: rgb(255, 255, 255);
+}

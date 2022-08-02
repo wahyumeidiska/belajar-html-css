@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* TODO style NAVBAR */
+
+nav {
+  background-color: #192a56;
+  position: fixed;
+  width: 100%;
+}
+
+.container {
+  max-width: 70%;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+
+.navbar .box1 h1 {
+  font-family: "Monoton", cursive;
+}
+
+.navbar ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.navbar .box2 ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: white;
+  padding: 8px 16px 8px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.navbar .box2 ul li a.active {
+  background-color: #e84118;
+}
+
+.navbar .box2 ul li a.active:hover {
+  background-color: #00a8ff;
+}
+
+.navbar .box2 ul li a:hover {
+  background-color: #e84118;
+}
+
+/* TODO style HEADER */
+header {
+  background-color: #273c75;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding-top: 80px;
+}
+
+header .header-box h1 {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+}
+
+.about {
+  padding: 100px 0 80px 0;
+}
+
+.about .about-box {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.about .about-box .about-box-one img {
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.about .about-box .about-box-two {
+  width: 500px;
+}
+
+.about .about-box .about-box-two h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+.about .about-box .about-box-two p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 28px;
+}
+
+/* TODO style GALLERY */
+.gallery {
+  background-color: #273c75;
+  margin: -5px;
+  padding: 100px 0 150px 0;
+}
+
+.gallery h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 38px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  padding: 40px 0 40px 0;
+  background-color: #273c75;
+  color: white;
+}
+
+.gallery .gallery-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.gallery .gallery-box .gallery-img {
+  width: 350px;
+  height: 250px;
+  margin: 5px;
+}
+
+/* TODO FORM */
+.form {
+  padding: 100px 0 50px 0;
+}
+
+.form .form-box {
+  width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.form .form-box h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form .form-box form {
+  align-self: center;
+}
+
+.form .form-box form label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form .form-box form .input {
+  width: 500px;
+  padding: 12px;
+  margin: 5px 0 15px 0;
+}
+
+.form .form-box form .button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 10px 30px 10px 30px;
+  background-color: #273c75;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #273c75;
+  margin: 0;
+  padding: 0;
+}
+
+footer p {
+  margin: -15px;
+  padding: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+  padding-bottom: 50px;
+  font-weight: bold;
+}
